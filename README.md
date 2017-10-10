@@ -9,7 +9,8 @@
 4. 시스템	: DNSN-ACSM-IMS-L3SW-1, 2	
 5. 작성일	: 2017/09/27
 6. 작업개요	: [중부]DNSN-ACSM-IMS-L3SW-2 CONSISTENCY LOG해소를 위한 SUP 절체 작업
-7. 작업목적	: FM-6-FM_CONSISTENCY_CHECK_LOG_STATUS: Consistency Checker found inconsistency 에러 지속 발생(서비스영향X)
+7. 작업목적	: FM-6-FM_CONSISTENCY_CHECK_LOG_STATUS: Consistency Checker
+             found inconsistency 에러 지속 발생(서비스영향X)
 8. 작업일자	: 2017-10-11 02:00 ~ 2017-10-11 05:00
 ```
 -------------
@@ -39,7 +40,8 @@
 요청 사항	-
 ```
 
-```
+
+<code>
 [둔산] DNSN-ACSM-IMS-L3SW-1
 * 해당 작업 후 서비스 이상 유무 확인 
 conf t
@@ -59,4 +61,4 @@ interface Vlan82
 end
 !
 wr
-```
+</code>
