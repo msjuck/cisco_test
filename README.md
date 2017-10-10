@@ -41,7 +41,7 @@
 ```
 
 
-<code>
+<pre><code>
 [둔산] DNSN-ACSM-IMS-L3SW-1
 * 해당 작업 후 서비스 이상 유무 확인 
 conf t
@@ -61,4 +61,4 @@ interface Vlan82
 end
 !
 wr
-</code>
+</code></pre>
